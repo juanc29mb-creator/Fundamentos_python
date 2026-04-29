@@ -1,0 +1,31 @@
+#operaciones aritmeticas
+a=float(input("Ingrese un numero: "))
+b = float(input("Ingrese otro numero: "))
+tipo_operacion = input("Ingrese la operacion a realizar (por favor escrivir correctamente la operacion)(suma, resta, multiplicacion, division, modulo, division_entera, potencia): ")  
+
+suma = a + b
+resta = a - b   
+multiplicacion = a * b
+division = a / b   
+modulo= a % b
+division_entera = a // b
+potencia = a ** b   
+
+if tipo_operacion == "suma":
+    print(f"La suma de {a} y {b} es: {suma}")   
+elif tipo_operacion == "resta":
+    print(f"La resta de {a} y {b} es: {resta}")
+elif tipo_operacion == "multiplicacion":
+    print(f"La multiplicacion de {a} y {b} es: {multiplicacion}")
+elif tipo_operacion == "division":  
+    print(f"La division de {a} y {b} es: {division}")
+elif tipo_operacion == "modulo":
+    print(f"El modulo de {a} y {b} es: {modulo}")
+elif tipo_operacion == "division_entera":
+    print(f"La division entera de {a} y {b} es: {division_entera}")
+elif tipo_operacion == "potencia":
+    print(f"La potencia de {a} elevado a {b} es: {potencia}")
+else:
+    print("Operacion no valida")  
+
+
