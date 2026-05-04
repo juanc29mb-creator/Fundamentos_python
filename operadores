@@ -1,4 +1,4 @@
-#operaciones aritmeticas
+s#operaciones aritmeticas
 a=float(input("Ingrese un numero: "))
 b = float(input("Ingrese otro numero: "))
 tipo_operacion = input("Ingrese la operacion a realizar (por favor escrivir correctamente la operacion)(suma, resta, multiplicacion, division, modulo, division_entera, potencia): ")  

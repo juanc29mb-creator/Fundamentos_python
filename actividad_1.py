@@ -1,4 +1,4 @@
-#Variables
+#actividad 1: tarjeta de identidad digital 
 nombre="Juan Carlos"
 apellidos="Merchan Ballesters"
 edad= 20
@@ -28,22 +28,3 @@ print(type(telefono_int),telefono_int)
 print(type(edad_float),edad_float)
 print(type(altuara_int),altuara_int)
 print(type(cedula_str),cedula_str)     
-
-
-#identacion de python
-
-if 5 > 2:
-    print("5 es mayor que 2")
-
-else:
-    print("5 no es mayor que 2")        
-
-#Iputs
-nombre_completo=input("Ingrese su nombre completo: ")
-print(nombre_completo)
-
-edad=int(input("Ingrese su edad: ") )
-print(type(edad),edad) 
-
-#imprimir con formato f-stringZ
-print(f"Hola {nombre_completo}, tienes {edad} años.")
