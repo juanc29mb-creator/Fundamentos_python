@@ -20,4 +20,4 @@ print(not False) # True
  
 print=(5>3)and(2>4)
 print=(5>3)and(2<4)
-print=(2>3)and(2>4)
+print=(2>33)and(2>4)

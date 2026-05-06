@@ -1,0 +1,30 @@
+# ACTIVIDAD 1: TARJETA DE IDENTIFICACIÓN DIGITAL
+
+# 1. Declaración de variables
+nombre = "Juan carlos "                
+apellido = "Merchan Ballesteros "              
+numero_ficha = 3321349           
+nombre_programa = "ADSO"          
+edad = 21                        
+promedio_academico = 4.5          
+esta_activo = True              
+
+# 2. Mostrar variables con etiquetas
+print("--- TARJETA DE IDENTIFICACIÓN ---")
+print("Nombre:", nombre)
+print("Apellido:", apellido)
+print("Número de Ficha:", numero_ficha)
+print("Programa:", nombre_programa)
+print("Edad:", edad)
+print("Promedio Académico:", promedio_academico)
+print("Estado Activo:", esta_activo)
+
+# 3. Mostrar el tipo de dato de cada variable
+print("\n--- VERIFICACIÓN DE TIPOS DE DATOS ---")
+print("Tipo de 'nombre':", type(nombre))
+print("Tipo de 'apellido':", type(apellido))
+print("Tipo de 'numero_ficha':", type(numero_ficha))
+print("Tipo de 'nombre_programa':", type(nombre_programa))
+print("Tipo de 'edad':", type(edad))
+print("Tipo de 'promedio_academico':", type(promedio_academico))
+print("Tipo de 'esta_activo':", type(esta_activo))
